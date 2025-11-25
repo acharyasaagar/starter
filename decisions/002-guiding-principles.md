@@ -10,6 +10,17 @@ Why?
 - Helps me easily test my core without needing to mock or involve external dependencies.
 - Helps me easily reason about the core functionality.
 
+## Consistency over flexibility
+
+Why?
+
+- Lowers the cognitive load and makes old projects feel familiar, even after long breaks.
+- Allows llms to generate code that fits the existing structure.
+- Helps best practices spread naturally because the same patterns repeat across all projects.
+- Improves the reliability of refactoring because similar code behaves in predictable ways
+
+> Consistency also carries risk: if a pattern is wrong or poorly chosen, it will be replicated everywhere until corrected.
+
 ## Set clear rules for repeated decisions.
 
 Why?
@@ -19,7 +30,7 @@ Why?
 - Maintain consistency across the code-base.
 - Removes multiple ways to do the same thing.
 
-## Document decisions as they are made.
+## Document decisions (Rules) as they are made.
 
 Why?
 
@@ -35,14 +46,3 @@ Why?
 - They help keep domain logic pure and focused on business rules.
 - They provide a clear guide for organizing code and responsibilities.
 - Following these principles naturally enforces separation of concerns.
-
-## Consistency over flexibility
-
-Why?
-
-- Lowers the cognitive load and makes old projects feel familiar, even after long breaks.
-- Allows llms to generate code that fits the existing structure.
-- Helps best practices spread naturally because the same patterns repeat across all projects.
-- Improves the reliability of refactoring because similar code behaves in predictable ways
-
-> Consistency also carries risk: if a pattern is wrong or poorly chosen, it will be replicated everywhere until corrected.
