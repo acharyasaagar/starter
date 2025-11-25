@@ -1,6 +1,6 @@
 # Why This Starter
 
-This starter provides a well-documented foundation built around my own learnings, opinions, and preferences, designed to be reused across many future TypeScript projects. It acts as a personal go-to starting point for new work—whether personal, hobby, or exploratory—so each project begins with a familiar, consistent architecture instead of rethinking structure from scratch.
+This starter should serve as a reusable base for typescript projects. Its built around my own learnings, opinions, and preferences. It will act as a personal go-to starting point for new work—whether personal, hobby, or exploratory—so each project begins with a familiar, consistent architecture instead of rethinking structure from scratch.
 
 # What this starter should achieve
 
