@@ -35,3 +35,14 @@ Why?
 - They help keep domain logic pure and focused on business rules.
 - They provide a clear guide for organizing code and responsibilities.
 - Following these principles naturally enforces separation of concerns.
+
+## Consistency over flexibility
+
+Why?
+
+- Lowers the cognitive load and makes old projects feel familiar, even after long breaks.
+- Allows llms to generate code that fits the existing structure.
+- Helps best practices spread naturally because the same patterns repeat across all projects.
+- Improves the reliability of refactoring because similar code behaves in predictable ways
+
+> Consistency also carries risk: if a pattern is wrong or poorly chosen, it will be replicated everywhere until corrected.
