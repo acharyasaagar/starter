@@ -1,6 +1,6 @@
 # Error Handling and Error Management
 
-Error handling in this starter should be simple, predictable, and aligned with the layered structure. Errors should move upward through the system in a controlled way, eventually becoming clear messages for end users and useful traces for debugging.
+Error handling should be simple, predictable, and aligned with the layered structure. Errors should move upward through the system in a controlled way, eventually becoming clear messages for end users and useful traces for debugging.
 
 ## How errors surface, bubble, and are handled across layers
 
@@ -36,7 +36,6 @@ Application errors (or wrapped domain errors) bubble up to the API layer.
 - Throws errors related to external systems (DB, network, storage, APIs).
 - These errors contain technical details useful for debugging.
 - They should never leak raw external error shapes into other layers.
-- If needed, infrastructure errors may be wrapped into higher-level errors before leaving this layer.
 
 **Error flow:**  
 Infrastructure errors bubble up through the Application layer, which may wrap them or pass them through.

@@ -38,19 +38,18 @@ This "ApplicationError" should be logged.
 
 ### 1. Expected domain rule failures
 
-- Business rule violations like invalid dates or forbidden entity states, because these are normal control-flow, not system-level problems.
+Business rule violations like invalid dates or forbidden entity states, because these are normal control-flow, not system-level problems.
 
 ### 2. Validation errors
 
-- Invalid user input, missing fields, wrong format.
-- These should be surfaced to the user, not logged.
+Invalid user input, missing fields, wrong format. These should be surfaced to the user, not logged.
 
 ### 3. Authorization denials
 
-- Cases where a user simply lacks permission is also not a system failure, no need for logs.
+Cases where a user simply lacks permission is also not a system failure, no need for logs.
 
 ### 4. Re-thrown or already logged errors
 
-- Errors must be logged once, usually in the API layer.
+Errors must be logged once, usually in the API layer.
 
 ---
